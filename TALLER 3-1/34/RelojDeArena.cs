@@ -55,14 +55,14 @@ namespace _34
             {
                 for (int j = 0; j < n; j++)
                 {
-                    // Condición para mostrar el reloj de arena
+                  
                     if (j >= i && j < n - i || j <= i && j >= n - 1 - i)
                     {
                         Console.Write($"{matriz[i, j],3} ");
                     }
                     else
                     {
-                        Console.Write("    "); // Espacio en blanco para alinear la forma del reloj
+                        Console.Write("    ");
                     }
                 }
                 Console.WriteLine();
